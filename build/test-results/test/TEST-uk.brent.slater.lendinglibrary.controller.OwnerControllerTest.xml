@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.brent.slater.lendinglibrary.controller.OwnerControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-12T21:41:54" hostname="BRENT_LAPTOP" time="0.176">
+  <properties/>
+  <testcase name="Successfully add book" classname="uk.brent.slater.lendinglibrary.controller.OwnerControllerTest" time="0.135"/>
+  <testcase name="Book already exists" classname="uk.brent.slater.lendinglibrary.controller.OwnerControllerTest" time="0.01"/>
+  <testcase name="numberBorrowed()" classname="uk.brent.slater.lendinglibrary.controller.OwnerControllerTest" time="0.027"/>
+  <system-out><![CDATA[2023-11-12T21:41:54.634Z  INFO 1052 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [uk.brent.slater.lendinglibrary.controller.OwnerControllerTest]: OwnerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-12T21:41:54.638Z  INFO 1052 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration uk.brent.slater.lendinglibrary.LendinglibraryApplication for test class uk.brent.slater.lendinglibrary.controller.OwnerControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-12T21:41:54.657Z  INFO 1052 --- [    Test worker] u.b.s.l.controller.OwnerControllerTest   : Starting OwnerControllerTest using Java 20.0.2.1 with PID 1052 (started by Brent in C:\Code\lending-library)
+2023-11-12T21:41:54.657Z  INFO 1052 --- [    Test worker] u.b.s.l.controller.OwnerControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-11-12T21:41:54.862Z  INFO 1052 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-12T21:41:54.862Z  INFO 1052 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-12T21:41:54.863Z  INFO 1052 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-11-12T21:41:54.866Z  INFO 1052 --- [    Test worker] u.b.s.l.controller.OwnerControllerTest   : Started OwnerControllerTest in 0.225 seconds (process running for 13.037)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-11-12T21:41:56" hostname="BRENT_LAPTOP" time="0.05">
+  <properties/>
+  <testcase name="Borrow book" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.018"/>
+  <testcase name="Get by author, book returned" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.003"/>
+  <testcase name="Fail to borrow borrowed book" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.005"/>
+  <testcase name="Get by ISBN, No book" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.003"/>
+  <testcase name="Get by ISBN, book returned" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.002"/>
+  <testcase name="Get by title, No book" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.003"/>
+  <testcase name="Get by author, No book" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.003"/>
+  <testcase name="Get by title, book returned" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.002"/>
+  <testcase name="Fail to borrow reference book" classname="uk.brent.slater.lendinglibrary.service.BorrowerServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-11-12T21:41:53" hostname="BRENT_LAPTOP" time="1.298">
+  <properties/>
+  <testcase name="borrowUnable()" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.59"/>
+  <testcase name="Successfully borrow book" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.359"/>
+  <testcase name="Successfully get by author" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.277"/>
+  <testcase name="Failed get by ISBN" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.01"/>
+  <testcase name="Successfully get by ISBN" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.01"/>
+  <testcase name="Failed get by author" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.008"/>
+  <testcase name="Failed get by author" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.012"/>
+  <testcase name="Successfully get by author" classname="uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest" time="0.011"/>
+  <system-out><![CDATA[2023-11-12T21:41:52.625Z  INFO 1052 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-12T21:41:52.655Z  INFO 1052 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration uk.brent.slater.lendinglibrary.LendinglibraryApplication for test class uk.brent.slater.lendinglibrary.controller.BorrowerControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-12T21:41:52.680Z  INFO 1052 --- [    Test worker] u.b.s.l.c.BorrowerControllerTest         : Starting BorrowerControllerTest using Java 20.0.2.1 with PID 1052 (started by Brent in C:\Code\lending-library)
+2023-11-12T21:41:52.681Z  INFO 1052 --- [    Test worker] u.b.s.l.c.BorrowerControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2023-11-12T21:41:53.275Z  INFO 1052 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-12T21:41:53.275Z  INFO 1052 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-12T21:41:53.278Z  INFO 1052 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-11-12T21:41:53.292Z  INFO 1052 --- [    Test worker] u.b.s.l.c.BorrowerControllerTest         : Started BorrowerControllerTest in 0.63 seconds (process running for 11.464)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

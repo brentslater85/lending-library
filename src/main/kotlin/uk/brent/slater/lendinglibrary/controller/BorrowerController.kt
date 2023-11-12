@@ -11,11 +11,7 @@ import uk.brent.slater.lendinglibrary.service.BorrowerService
 @RestController
 @RequestMapping("/api/borrower/")
 class BorrowerController(private val borrowerService: BorrowerService) {
-
-    @GetMapping("Test")
-    fun getTest(@PathVariable author: String): String {
-        return "Success"
-    }
+    
 
     @GetMapping("author/{author}")
     fun getByAuthor(@PathVariable author: String): List<Book> {

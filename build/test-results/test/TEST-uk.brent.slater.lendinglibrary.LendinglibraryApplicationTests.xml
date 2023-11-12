@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.brent.slater.lendinglibrary.LendinglibraryApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-12T21:41:52" hostname="BRENT_LAPTOP" time="0.532">
+  <properties/>
+  <testcase name="contextLoads()" classname="uk.brent.slater.lendinglibrary.LendinglibraryApplicationTests" time="0.532"/>
+  <system-out><![CDATA[21:41:46.634 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [uk.brent.slater.lendinglibrary.LendinglibraryApplicationTests]: LendinglibraryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:41:47.454 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration uk.brent.slater.lendinglibrary.LendinglibraryApplication for test class uk.brent.slater.lendinglibrary.LendinglibraryApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-12T21:41:47.953Z  INFO 1052 --- [    Test worker] u.b.s.l.LendinglibraryApplicationTests   : Starting LendinglibraryApplicationTests using Java 20.0.2.1 with PID 1052 (started by Brent in C:\Code\lending-library)
+2023-11-12T21:41:47.954Z  INFO 1052 --- [    Test worker] u.b.s.l.LendinglibraryApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-11-12T21:41:48.619Z  INFO 1052 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-12T21:41:48.676Z  INFO 1052 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-11-12T21:41:49.097Z  INFO 1052 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-12T21:41:49.449Z  INFO 1052 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:98c0d355-4f6c-44e4-91e0-6af1096feafe user=SA
+2023-11-12T21:41:49.451Z  INFO 1052 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-12T21:41:49.503Z  INFO 1052 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-12T21:41:49.580Z  INFO 1052 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-12T21:41:49.582Z  INFO 1052 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-12T21:41:49.934Z  INFO 1052 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-12T21:41:50.811Z  INFO 1052 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-12T21:41:50.851Z  INFO 1052 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-12T21:41:51.641Z  WARN 1052 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-12T21:41:52.063Z  INFO 1052 --- [    Test worker] u.b.s.l.LendinglibraryApplicationTests   : Started LendinglibraryApplicationTests in 4.401 seconds (process running for 10.234)
+]]></system-out>
+  <system-err><![CDATA[[2023.11.12 21:41:47] (Coverage): Error during class instrumentation: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem: java.lang.RuntimeException: java.io.IOException: Class org/apache/logging/log4j/core/config/composite/CompositeConfiguration not found
+[2023.11.12 21:41:48] (Coverage): Error during class instrumentation: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport: java.lang.RuntimeException: java.io.IOException: Class jakarta/validation/ValidatorFactory not found
+[2023.11.12 21:41:51] (Coverage): Error during class instrumentation: org.springframework.core.ReactiveAdapterRegistry$ReactorAdapter: java.lang.RuntimeException: java.io.IOException: Class reactor/core/publisher/Flux not found
+]]></system-err>
+</testsuite>
