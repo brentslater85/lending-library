@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.brent.slater.lendinglibrary.service.LibraryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-11-20T19:41:46" hostname="BRENT_LAPTOP" time="0.069">
+  <properties/>
+  <testcase name="Fail to add book if ISBN already exists" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.018"/>
+  <testcase name="Borrow book" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.003"/>
+  <testcase name="Get by author, 2 books written by Author0 returned returned" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.017"/>
+  <testcase name="Fail to borrow borrowed book" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.003"/>
+  <testcase name="Get by ISBN, No book" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.001"/>
+  <testcase name="Get by ISBN, book returned" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.003"/>
+  <testcase name="Get by title, No book" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.003"/>
+  <testcase name="Get by author, No book" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.002"/>
+  <testcase name="Testing the count borrowed books functionality" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.001"/>
+  <testcase name="Get by title, book returned" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.001"/>
+  <testcase name="Fail to borrow reference book" classname="uk.brent.slater.lendinglibrary.service.LibraryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
